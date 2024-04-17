@@ -8,7 +8,7 @@ let myDate = new Date()
  //gives the object as type of date
 
 // let myCreatedDate = new Date(2023, 0, 23)
-//month stat with 0 in javascript
+//month stat with 0 indexing in javascript
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3)
 // let myCreatedDate = new Date("2023-01-14")
 let myCreatedDate = new Date("01-14-2023")
