@@ -21,6 +21,7 @@ console.log(hundreds.toLocaleString('en-IN'));
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
 // console.log(Math);
+//gives the object of the Math class.
 // console.log(Math.abs(-4));
 // console.log(Math.round(4.6));
 // console.log(Math.ceil(4.2));
