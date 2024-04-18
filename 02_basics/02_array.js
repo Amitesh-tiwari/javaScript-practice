@@ -1,7 +1,10 @@
 const marvel_heros = ["thor", "Ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
 
-// marvel_heros.push(dc_heros)
+marvel_heros.push(dc_heros)
+//it pushes the entire dc_heroes array into the marvel_heroes array
+// and it will be the last element of the marvel_heroes array.
+
 
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
@@ -10,6 +13,8 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(allHeros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros]
+//spread operator is the modern syntax to concat the arrays.
+//The elements in the array are treated as individual elements.
 
 // console.log(all_new_heros);
 
