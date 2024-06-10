@@ -14,6 +14,7 @@ const user = {
 // user.welcomeMessage()
 
 // console.log(this);
+//gives value as empty paranthesis
 
 // function chai(){
 //     let username = "hitesh"
